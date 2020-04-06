@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+.container {
+    width: 75vh;
+    height: 75vh;
+    position: relative;
+    top: 12.5vh;
+    background-color: white;
+    padding: 0;
+}
+
+#a {
+    min-height: 23vh;
+    min-width: 20vh;
+    margin-right: 3vh;
+    background-image: url(../../Images/image1.jpg);
+    background-size: cover;
+}
+
+#b {
+    min-height: 23vh;
+    min-width: 49vh;
+    background-image: url(../../Images/image2.jpg);
+    background-size: cover;
+}
+
+#c {
+    min-height: 23vh;
+    min-width: 23vh;
+    margin: 3vh 3vh 0 0;
+    background-image: url(../../Images/image3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#d {
+    min-height: 23vh;
+    min-width: 23vh;
+    margin: 3vh 3vh 0 0;
+    background-image: url(../../Images/image4.jpg);
+    background-size: cover;
+}
+
+#e {
+    min-height: 49vh;
+    min-width: 23vh;
+    margin: 3vh 3vh 0 0;
+    background-image: url(../../Images/image5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#f {
+    min-height: 23vh;
+    min-width: 23vh;
+    margin: 3vh 0 3vh 0;
+    background-image: url(../../Images/image6.jpg);
+    background-size: cover;
+    
+}
+
+#g {
+    min-height: 23vh;
+    min-width: 23vh;
+    background-image: url(../../Images/image7.jpg);
+    background-size: cover;
+}
+
+.hidden {
+    display: none;
+    font-size: 25px;
+    background-color: rgba(255, 255, 255, 0.67);
+}
+
+#photo {
+    width: 23vh; 
+    height: 23vh;
+}
+
+#cvlink {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+}
